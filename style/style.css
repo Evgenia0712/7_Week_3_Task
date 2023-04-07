@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  height: 250vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  grid-template-rows: repeat(2, 500px);
+  border: 1px solid black;
+  grid-gap: 10px;
+}
+
+.conteiner > div > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
