@@ -9,10 +9,10 @@ body {
 }
 
 .conteiner {
-  height: 250vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-  grid-template-rows: repeat(2, 500px);
+  grid-template-rows: repeat(2, 700px);
   border: 1px solid black;
   grid-gap: 10px;
 }
